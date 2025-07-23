@@ -78,12 +78,9 @@ npm install
 
 ### 4. Start the Application
 ```bash
-# Start both frontend and backend concurrently
-npm run dev
-
-# Or start them separately:
-npm run server  # Backend only (port 5000)
-npm run client  # Frontend only (port 3000)
+# start them separately:
+npm start  # Backend only (port 5000)
+npm start  # Frontend only (port 3000)
 ```
 
 ### 5. Access the Application
