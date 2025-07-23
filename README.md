@@ -56,30 +56,22 @@ A comprehensive expense tracking system built for remote teams with role-based a
 
 ## 📋 Prerequisites
 
-## 🚀 Installation & Setup
+## 🚀 Installation & Setup 
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd expense-tracker-fullstack
+git clone https://github.com/VijayDeshwal339/Pocket-Rokets.git
+
+frontend
+cd frontend
+
+backend
+cd backend
 ```
 
 ### 2. Install Dependencies
 ```bash
 npm install
-```
-
-### 3. Environment Configuration
-Create a `.env` file in the root directory with the following variables:
-
-```env
-# Backend Configuration
-PORT=5000
-MONGODB_URI=your-mongodb-connection-string
-JWT_SECRET=your-super-secret-jwt-key-change-in-production
-
-# Frontend Configuration (for development)
-VITE_API_URL=http://localhost:5000/api
 ```
 
 **Important**: Replace the MongoDB URI with your actual connection string.
@@ -175,12 +167,6 @@ expense-tracker-fullstack/
 └── package.json          # Dependencies and scripts
 ```
 
-### Available Scripts
-- `npm run dev` - Start both frontend and backend
-- `npm run server` - Start backend only
-- `npm run client` - Start frontend only
-- `npm run build` - Build for production
-- `npm run lint` - Run ESLint
 
 ## 🚀 Deployment
 
@@ -219,23 +205,3 @@ expense-tracker-fullstack/
 - Clear browser localStorage
 - Check JWT_SECRET in environment variables
 - Verify token expiration settings
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📞 Support
-
-For support and questions, please open an issue in the repository or contact the development team.
-
----
-
-**Built with ❤️ for remote teams**
